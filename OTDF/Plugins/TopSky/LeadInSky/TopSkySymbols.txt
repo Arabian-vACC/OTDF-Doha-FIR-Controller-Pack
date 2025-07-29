@@ -1,4 +1,4 @@
-// File created for the Arabian vACC - U.A.E FIR (OMAE)
+// File created for the Arabian vACC - Doha FIR (OTDF)
 // Developed and maintained by the Arabian vACC Operations Department
 //
 // To be used on the VATSIM Network only

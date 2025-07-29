@@ -1,4 +1,4 @@
-// File created for the Arabian vACC - U.A.E FIR (OMAE)
+// File created for the Arabian vACC - Doha FIR (OTDF)
 // Developed and maintained by the Arabian vACC Operations Department
 //
 // To be used on the VATSIM Network only
@@ -115,9 +115,9 @@ Track_PredictionLine=0
 RwyAppLines_Auto=0
 
 // Colors
-Color_Active_Map=181,20,20
-Color_Active_Map_Type_1=28,28,28
-Color_Active_Map_Type_2=80,162,74
+Color_Active_Map=198,174,58
+Color_Active_Map_Type_1=158,158,255
+Color_Active_Map_Type_2=90,90,90
 Color_Active_Map_Type_3=179,180,180
 Color_Active_Map_Type_4=200,53,18
 Color_Active_Map_Type_5=198,174,58
@@ -126,7 +126,7 @@ Color_Active_Sector=52,58,62
 Color_Active_Text_Map=198,174,58
 Color_AIW_Intrusion=255,152,0
 Color_Arm=97,97,97
-Color_Assumed=255,229,71
+Color_Assumed=225,191,0
 Color_Background=236,231,233
 Color_Border=51,51,52
 Color_BottomShadow=70,70,70
@@ -134,20 +134,20 @@ Color_CARD_Mark_All=212,128,44
 Color_CARD_Mark_Own=212,128,44
 Color_CARD_Min_Sep=61,61,61
 Color_CARD_Time_Vector=170,231,197
-Color_Concerned=230,230,230
-Color_Coordination=17,219,25
+Color_Concerned=225,191,0
+Color_Coordination=17,219,255
 Color_CPDLC_Controller_Late=212,128,44
 Color_CPDLC_Discarded=128,128,128
-Color_CPDLC_DM_Request=255,62,48
+Color_CPDLC_DM_Request=115,0,150
 Color_CPDLC_Failed=212,128,44
 Color_CPDLC_Pilot_Late=212,124,44
 Color_CPDLC_Standby=212,128,44
-Color_CPDLC_UM_Clearance=255,62,48
+Color_CPDLC_UM_Clearance=115,0,150
 Color_CPDLC_Unable=212,128,44
 Color_CPDLC_Urgency=225,25,25
 Color_Datalink_Logged_On
-Color_Field_Highlight=39,43,54
-Color_Flight_Highlight=39,43,54
+Color_Field_Highlight=72,72,73
+Color_Flight_Highlight=36,41,45
 Color_Flight_Leg=170,231,197
 Color_Foreground=0,0,0
 Color_FPLSEP_Tool_1=153,217,234
@@ -160,9 +160,9 @@ Color_Global_Menu_Highlight=1,165,219
 Color_Heading_Vector=170,231,197
 Color_Inactive_Sector=67,73,76
 Color_Info_Coord=1,255,255
-Color_Information=40,210,40
-Color_Information_FL=41,245,41
-Color_Informed=230,230,230
+Color_Information=110,245,110
+Color_Information_FL=0,255,0
+Color_Informed=275,125,175
 Color_Map_1=80,95,80
 Color_Map_2=44,44,44
 Color_Map_3=100,108,111
@@ -208,11 +208,11 @@ Color_TSA_Active=93,138,195
 Color_TSA_Border_Highlight=0,0,0
 Color_TSA_Filter=0,0,255
 Color_TSA_Preactive=132,142,139
-Color_Unconcerned=56,128,31
+Color_Unconcerned=56,128,131
 Color_Unknown=239,224,42
 Color_Urgency=225,25,25
 Color_Urgency_FL=225,25,25
-Color_Warning=255,128,0
+Color_Warning=195,0,255
 Color_VAW_Profile=152,202,172
 Color_VAW_Sector_Limits=145,95,30
 Color_VAW_Track_Position=219,219,219
@@ -222,6 +222,7 @@ Color_WM_Bg=183,173,172
 Color_WM_Border=183,173,172
 Color_WM_Fg=20,20,21
 Color_WM_Frame=183,173,172
+
 
 // Labels
 Label_SI_ShowFreq=1
