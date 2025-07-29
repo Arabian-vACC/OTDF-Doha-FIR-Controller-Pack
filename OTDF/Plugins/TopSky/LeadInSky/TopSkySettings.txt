@@ -68,6 +68,11 @@ WXR_Longitude_Max=55
 WXR_Longitude_Min=49
 WXR_ImageSize=256
 
+HTTP_GRIB_Latitude_Max=27
+HTTP_GRIB_Latitude_Min=23
+HTTP_GRIB_Longitude_Max=55
+HTTP_GRIB_Longitude_Min=49
+
 Shortcut_RadarMenu_Combo=0x12
 
 CPDLC_Default = 1
