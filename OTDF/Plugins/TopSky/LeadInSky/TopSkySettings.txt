@@ -60,6 +60,14 @@ Menu_MaxListItems=15
 Window_SM_LeaveHoldTime=3
 Window_CARD_View_Risk=0
 
+WXR_Latitude=25
+WXR_Latitude_Max=27
+WXR_Latitude_Min=23
+WXR_Longitude=52
+WXR_Longitude_Max=55
+WXR_Longitude_Min=49
+WXR_ImageSize=256
+
 Shortcut_RadarMenu_Combo=0x12
 
 CPDLC_Default = 1
@@ -70,7 +78,7 @@ CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
 
-RDF_Mode=0
+RDF_Mode=1
 
 Equip_ModeS=PISXEHL
 Equip_UseCodes=2
@@ -79,13 +87,13 @@ Malrt_Misap=MAPP
 Malrt_Inbound_EST=EST
 Malrt_Irregular=IRR
 
-Airspace_P_Flag=OMDB,OMSJ,OMRK,OMFJ
+Airspace_C_Flag=OTHH,OTBD,OTBH
 Airspace_No_DUPE_Codes=7000,2000,2200,1200,2655,0401
-Airspace_SIGMET_Areas=OMAE
-Airspace_NOTAM_Add=OMAE
+Airspace_SIGMET_Areas=OTDF
+Airspace_NOTAM_Add=OTDF
 Airspace_ASSR_Type=2
-Airspace_ASSR_AutoAssign_Type=0
-Airspace_AOR_Airports=OM
+Airspace_ASSR_AutoAssign_Type=1
+Airspace_AOR_Airports=OT
 
 System_TrueColorMode=1
 System_UseReportedGS=1
@@ -218,6 +226,5 @@ Label_Field18_Flag_Items=STS/,newbie,NEWBIE,Newbie,beginner
 Label_Rev_Highlight_Delta_ETN=0
 Label_Alt_Digits=2
 
-Label_COP_MaxChars=3
-Label_FCOP_MaxChars=3
-Label_CFL_DefaultValue=1
+Label_COP_MaxChars=5
+Label_FCOP_MaxChars=5
