@@ -1,6 +1,6 @@
 m_PlaySounds:1
-m_AssumeSlowAcAsStandby:1
-m_ShowAirspaceLines:1
+m_AssumeSlowAcAsStandby:0
+m_ShowAirspaceLines:0
 m_ShowRouteFixName:1
 m_ShowRouteETA:1
 m_ShowCalculatedHeading:1
@@ -8,16 +8,16 @@ m_ShowSimulatedData:0
 m_TransitionAltitude:13000
 m_AllowConcernedACTagDown:0
 m_CenterlineDme:0.0
-m_CenterlineLength:10.0
+m_CenterlineLength:20.0
 m_CenterlineTickDme:0.0
-m_CenterlineTickInterval:5.0
-m_CenterlineTickLength:0.5
-m_CenterlineMarkerLength:0.2
-m_CenterlineMarkerInterval:1.0
-m_CenterlineVectorDme:10.0
-m_CenterlineVectorLength:3.0
+m_CenterlineTickInterval:1.0
+m_CenterlineTickLength:1.0
+m_CenterlineMarkerLength:1.0
+m_CenterlineMarkerInterval:10.0
+m_CenterlineVectorDme:5.0
+m_CenterlineVectorLength:0.0
 m_CenterlineVectorAngle:30.0
-m_CenterlineVectorBase:5.0
+m_CenterlineVectorBase:0.0
 m_STCA_LowShow:0
 m_STCA_LowVertical:900
 m_STCA_LowHorizontal:3.0
@@ -33,16 +33,16 @@ m_ShowRouteWhenAccepting:0
 m_AllowAssumedACTagDown:0
 m_InhibitAutoPushOnHandoff:0
 m_RandomSquawks:1
-m_VFRSquawks:7000,1000
+m_VFRSquawks:7000
 m_WhoIsOnlineURL:http://vatsim.metacraft.com/vatsim-data.txt
 m_AutoLoadMetarForActiveAirports:1
 m_LockShowRouteWhenAccepting:0
-m_VoiceAtisBuilderUrl:http://vacchun.hu/td/esmetar.php?tlcond=100,1013,110&metar=$metar($atisairport)&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&app=ILS&par=1&info=$atiscode&lvp=2
-m_DoNotUseAcceptedColor:1
+m_VoiceAtisBuilderUrl:http://uniatis.net/atis.php?arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&apptype=ILS&info=$atiscode&metar=$metar($atisairport)
+m_DoNotUseAcceptedColor:0
 m_DoNotUseRefusedColor:0
-SET_TransparentAcListBackground:1
-m_PutIncomingCoordinationToFirst:0
-m_AutoProxyMode:0
+SET_TransparentAcListBackground:0
+m_PutIncomingCoordinationToFirst:1
+m_AutoProxyMode:1
 m_TransparentAcListSelectedBackground:0
 m_TransparentDetailedTagBackground:1
 m_TransparentDetailedTagSelectedItemBackground:0
@@ -53,7 +53,7 @@ m_ShowRAMWarning:1
 m_MagneticNorthUp:1
 m_ShowAForAltitudes:1
 m_Show500ForNonVisual:1
-SET_SetActiveAptBySectors:1
+SET_SetActiveAptBySectors:0
 SET_CapitalizeFPAndScratch:1
 m_SET_WTC_Light:L
 SET_WTC_Medium:M
@@ -62,21 +62,21 @@ SET_WTC_A380:J
 m_RotateRouteTexts:0
 m_NeverCloseFreqChat:1
 m_KeepScratchPadAfterDirect:1
-m_HiliteASELAircraft:0
+m_HiliteASELAircraft:1
 m_EnableVoiceRecognition:0
 m_VoiceRecognitionStyle:2
-m_SModeTransponders:HLEGWQS
-m_CorrelationMode:0
-m_CorrelationDistance:30
-m_SimulateRadars:0
+m_SModeTransponders:IEFGRJKLQW
+m_CorrelationMode:2
+m_CorrelationDistance:100
+m_SimulateRadars:1
 m_AllowCorrelatedTAGDown:1
 m_ShowDetailedOverUntagged:1
-m_ShowRectAroundFPTrack:1
+m_ShowRectAroundFPTrack:0
 m_ShowRectAroundASEL:0
 m_VatsimStatusURL:http://status.vatsim.net/
 m_OverrideWhoIsOnlineURL:0
 m_ShowVFRFlightPlanTrack:0
-m_ShowIFRFlightPlanTrack:0
+m_ShowIFRFlightPlanTrack:1
 m__AutoStartFlightPlanTracks:1
 m_UnicomFrequency:122.8
 m_MessageInfoLevel:1
@@ -100,8 +100,8 @@ m_MericUnits:0
 m_ShowCorrelatedInFpList:0
 m_ShowUncorrelatedInFpList:1
 m_ShowVFRInFpList:1
-m_ShowIFRInFpList:0
-m_ShowConcernedInFpList:1
+m_ShowIFRInFpList:1
+m_ShowConcernedInFpList:0
 m_ShowUnconcernedInFpList:0
 m_ZoomCenterUnderMouse:1
 m_AseURL:http://www.craig-phillips.co.uk/ase/repository/
@@ -113,8 +113,8 @@ m_STCA_ShowCFL:1
 m_STCA_PlaySoundOnCFL:0
 m_STCA_PlaySoundOnTrackedOnly:1
 m_AutoCorrelateDisabledSQs:1000,1200,2000,2200,7000,7700,7600,7500
-m_DontAutoCorrelateDuplicated:1
-m_AcceptPilotSquawkForCorrelation:1
+m_DontAutoCorrelateDuplicated:0
+m_AcceptPilotSquawkForCorrelation:0
 m_MTCA_Floor:13000
 m_MTCA_AltitudeDifference:0
 m_MTCA_Distance:0.0
@@ -170,45 +170,58 @@ m_Column:DATA:7:0:107:0:0:1::::1:0.0
 END
 STUP
 m_Visible:0
-m_X:80
-m_Y:100
-m_LineNumber:6
-m_Resizable:0
+m_X:9
+m_Y:176
+m_LineNumber:0
+m_Resizable:1
 m_OrderingColumn:1
 m_HeaderOnly:0
-m_Column:TIME:5:1:98:0:0:1::::1:0.0
-m_Column:TOBT:5:1:97:0:0:1::::1:0.0
-m_Column:SLOT:5:1:99:0:0:1::::1:0.0
-m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
-m_Column:ATYP:4:1:16:0:0:1::::1:0.0
-m_Column:RUNW:4:1:47:19:19:1::::1:0.0
-m_Column:ADES:4:1:17:7:0:1::::1:0.0
-m_Column:SID:9:0:56:17:17:1::::1:0.0
-m_Column:CFL:4:1:20:11:0:1::::1:0.0
-m_Column:ASSR:5:1:60:31:31:1::::1:0.0
-m_Column:E:1:1:58:27:0:1::::1:0.0
-m_Column:STS:4:1:59:46:46:1::::1:0.0
+m_Column:TIME:5:1:544:548:0:0:VCH:VCH::0:0.0
+m_Column:REQ:5:1:540:548:0:1:VCH:VCH::0:0.0
+m_Column:STS:6:1:3:13:28:1:Ground Radar plugin:Ground Radar plugin::0:0.0
+m_Column:DCL:4:1:10128:122:155:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
+m_Column:C:2:1:10046:27:0:1:TopSky plugin:::0:0.0
+m_Column:CS:8:0:22:6:99:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
+m_Column:T:2:1:80:46:32:1::::0:0.0
+m_Column:AC:5:1:69:2:0:1:TopSky plugin:TopSky plugin::0:0.0
+m_Column::2:1:10083:106:0:1:TopSky plugin:TopSky plugin::0:0.0
+m_Column:POS:3:1:1:1:0:1:Ground Radar plugin:Ground Radar plugin::0:0.0
+m_Column:EOBT:5:1:1:0:0:1:vACDM:::0:0.0
+m_Column:TOBT:5:1:2:6:3:1:vACDM:vACDM:vACDM:0:0.0
+m_Column:TSAT:5:1:3:8:9:1:vACDM:vACDM:vACDM:0:0.0
+m_Column:ASRT:5:1:9:9:0:1:vACDM:vACDM::0:0.0
+m_Column:CTOT:5:1:5001:0:0:1:VATCAN Bookings:::0:0.0
+m_Column:FR:2:1:10031:0:0:1:TopSky plugin:::0:0.0
+m_Column:DEP:5:1:10007:7:1001:1:TopSky plugin::TopSky plugin:0:0.0
+m_Column:ARR:5:1:10008:7:1001:1:TopSky plugin::TopSky plugin:0:0.0
+m_Column:SID:12:1:10011:17:17:1:TopSky plugin:::0:0.0
+m_Column:RWY:3:1:10050:19:64:1:TopSky plugin::TopSky plugin:0:0.0
+m_Column:CFL:5:1:10049:0:0:1:TopSky plugin:::0:0.0
+m_Column:XPDR:5:1:10042:62:0:1:TopSky plugin:TopSky plugin::0:0.0
+m_Column:FPC:5:1:1:100:0:1:VFPC:VFPC::0:0.0
+m_Column:DEL:5:1:1:101:0:1:DelHel:DelHel::0:0.0
+m_Column:RMK:12:1:10059:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
 END
 TAXIOUT
 m_Visible:0
-m_X:90
-m_Y:100
-m_LineNumber:6
-m_Resizable:0
-m_OrderingColumn:1
+m_X:1851
+m_Y:684
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:-7
 m_HeaderOnly:0
-m_Column:DSQ:3:1:57:0:0:1::::1:0.0
-m_Column:SLOT:5:1:99:0:0:1::::1:0.0
-m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
-m_Column:RUNW:4:1:47:19:19:1::::1:0.0
-m_Column:ATYP:4:1:16:0:0:1::::1:0.0
-m_Column:ADES:4:1:17:7:0:1::::1:0.0
-m_Column:SID:9:0:56:17:17:1::::1:0.0
-m_Column:CFL:4:1:20:11:0:1::::1:0.0
-m_Column:ASSR:5:1:60:31:31:1::::1:0.0
-m_Column:E:1:1:58:27:0:1::::1:0.0
-m_Column:TTOT:5:1:108:0:0:1::::1:0.0
-m_Column:STS:4:1:59:46:46:1::::1:0.0
+m_Column:DSQ:5:1:10056:0:0:1:TopSky plugin:::1:0.0
+m_Column:RWY:4:1:10050:19:19:1:TopSky plugin:::0:0.0
+m_Column:CS:8:0:10021:6:99:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
+m_Column:TTOT:5:0:4:0:0:1:vACDM:::0:0.0
+m_Column:CTOT:5:1:5001:0:0:1:VATCAN Bookings:::0:0.0
+m_Column:AC:5:1:10028:2:32:1:TopSky plugin:TopSky plugin::0:0.0
+m_Column::2:1:10081:106:0:1:TopSky plugin:TopSky plugin::0:0.0
+m_Column:ARR:5:1:10008:0:0:1:TopSky plugin:::0:0.0
+m_Column:SID:12:1:10011:17:17:1:TopSky plugin:::0:0.0
+m_Column:XPDR:5:1:10042:62:0:1:TopSky plugin:TopSky plugin::0:0.0
+m_Column:STS:7:1:3:13:13:1:Ground Radar plugin:Ground Radar plugin:Ground Radar plugin:0:0.0
+m_Column:RMK:12:1:10059:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
 END
 TAKEOFF
 m_Visible:0
@@ -246,8 +259,8 @@ m_Column:STS:4:1:59:46:46:1::::1:0.0
 END
 TAXIIN
 m_Visible:0
-m_X:120
-m_Y:100
+m_X:1243
+m_Y:176
 m_LineNumber:6
 m_Resizable:0
 m_OrderingColumn:1
