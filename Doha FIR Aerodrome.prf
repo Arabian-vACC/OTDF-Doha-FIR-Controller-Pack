@@ -26,10 +26,10 @@ Settings	airports	\OTDF\ICAO\ICAO_Airports.txt
 Settings	aircraft	\OTDF\ICAO\ICAO_Aircraft.txt
 Settings	airportcoords	\OTDF\NavData\icao.txt
 Settings	airways	\OTDF\NavData\airway.txt
-ASRFastKeys	1	\OTDF\ASR\Aerodrome\Doha Aerodrome - Dynamic.asr
+ASRFastKeys	1	\OTDF\ASR\Aerodrome\Doha Aerodrome.asr
 ASRFastKeys	2	\OTDF\ASR\SMGCS\Hamad SMGCS.asr
 ASRFastKeys	3	\OTDF\ASR\SMGCS\Doha SMGCS.asr
-RecentFiles	Recent1	\OTDF\ASR\Aerodrome\Doha Aerodrome - Dynamic.asr
+RecentFiles	Recent1	\OTDF\ASR\Aerodrome\Doha Aerodrome.asr
 RecentFiles	Recent2	\OTDF\ASR\SMGCS\Hamad SMGCS.asr
 RecentFiles	Recent3	\OTDF\ASR\SMGCS\Doha SMGCS.asr
 TeamSpeakVccs	TsVccsMiniControlX	2070
