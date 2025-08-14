@@ -15,8 +15,8 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:292.00000
 TAGFAMILY:GRplugin
-WINDOWAREA:25.247384:51.543244:25.272869:51.595886
-PLUGIN:Ground Radar plugin:AirportElevation:37
+WINDOWAREA:25.255045:51.568278:25.291521:51.643623
+PLUGIN:Ground Radar plugin:AirportElevation:13
 PLUGIN:Ground Radar plugin:AirportRadius:2.0
-PLUGIN:Ground Radar plugin:GroundMode:OTBD
+PLUGIN:Ground Radar plugin:GroundMode:OTHH
 PLUGIN:TopSky plugin:NoDraw:1
