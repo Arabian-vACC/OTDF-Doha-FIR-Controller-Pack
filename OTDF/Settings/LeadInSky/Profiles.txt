@@ -1,27 +1,27 @@
 PROFILE
-PROFILE:<INITIALS>_OBS:275:0
-ATIS2:Arabian vACC Observer
-ATIS3:vACC Info - arabian-vacc.com
-ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
+PROFILE:(INITIALS)_OBS:300:0
+ATIS2:Arabian vACC - Observer
+ATIS3:Information - vats.im/arb/info
+ATIS4:Feedback - vats.im/arb/feedback
 PROFILE:OTDF_1_CTR:400:6
-ATIS2:"Doha Control" - DCL [OTDF]
-ATIS3:Area Coverage on vatglasses.uk & Airport Info on vats.im/arb/airports
+ATIS2:"Doha Control"
+ATIS3:Area Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OTDF_1X_CTR:400:6
-ATIS2:"Doha Control" - DCL [OTDF]
-ATIS3:Area Coverage on vatglasses.uk & Airport Info on vats.im/arb/airports
+ATIS2:"Doha Control" - Secondary Frequency
+ATIS3:Area Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OTDF_2_CTR:400:6
-ATIS2:"Doha Control" - DCL [OTDF]
-ATIS3:Area Coverage on vatglasses.uk & Airport Info on vats.im/arb/airports
+ATIS2:"Doha Control"
+ATIS3:Area Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OTDF_2X_CTR:400:6
-ATIS2:"Doha Control" - DCL [OTDF]
-ATIS3:Area Coverage on vatglasses.uk & Airport Info on vats.im/arb/airports
+ATIS2:"Doha Control" - Secondary Frequency
+ATIS3:Area Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
-PROFILE:OTDF_FMP_CTR:400:6
-ATIS2:"Doha Traffic Managment Unit"
-ATIS3:No listening watch maintained on this frequency! Contact the appropriate sector as directed.
+PROFILE:OTDF_FM_CTR:400:6
+ATIS2:"Doha Control Flow Manager" - DO NOT CONTACT ME!
+ATIS3:Area Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:DOH_R1_APP:150:5
 ATIS2:"Doha Radar" [DCL - DOHA]
@@ -40,8 +40,8 @@ ATIS2:"Doha Radar" - Secondary Frequency
 ATIS3:Airport Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:DOH_RFM_APP:150:5
-ATIS2:"Doha Radar Flow Manager"
-ATIS3:No listening watch maintained on this frequency! Contact the appropriate sector as directed.
+ATIS2:"Doha Radar Flow Manager" - DO NOT CONTACT ME!
+ATIS3:Airport Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:DOH_A1_APP:150:5
 ATIS2:"Doha Approach"
@@ -60,8 +60,8 @@ ATIS2:"Doha Approach" - Secondary Frequency
 ATIS3:Airport Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:DOH_AFM_APP:150:5
-ATIS2:"Doha Approach Flow Manager"
-ATIS3:No listening watch maintained on this frequency! Contact the appropriate sector as directed.
+ATIS2:"Doha Approach Flow Manager" - DO NOT CONTACT ME!
+ATIS3:Airport Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:DOH_F1_APP:150:5
 ATIS2:"Doha Director"
@@ -88,7 +88,7 @@ ATIS2:"Doha Director" - Secondary Frequency
 ATIS3:Airport Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:DOH_FFM_APP:150:5
-ATIS2:"Doha Director Flow Manager"
-ATIS3:No listening watch maintained on this frequency! Contact the appropriate sector as directed.
+ATIS2:"Doha Director Flow Manager" - DO NOT CONTACT ME!
+ATIS3:Airport Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 END

@@ -1,5 +1,5 @@
 m_PlaySounds:1
-m_AssumeSlowAcAsStandby:0
+m_AssumeSlowAcAsStandby:1
 m_ShowAirspaceLines:0
 m_ShowRouteFixName:1
 m_ShowRouteETA:1
@@ -133,8 +133,6 @@ m_AutoAssumeOnGroundStateChangeButton:0
 m_ShowTrackMilesInRouteButton:1
 m_FilterOutSquawks:
 m_EquipmentsIcaoFormat:1
-m_DoNotShowMessageHandlersInProxy:0
-m_DoNotShowMessageHandlersInMainIfProxyConnected:0
 PILOTING
 m_Visible:0
 m_X:60
@@ -204,11 +202,11 @@ m_Column:RMK:12:1:10059:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
 END
 TAXIOUT
 m_Visible:0
-m_X:1851
-m_Y:684
+m_X:838
+m_Y:178
 m_LineNumber:0
 m_Resizable:1
-m_OrderingColumn:-7
+m_OrderingColumn:1
 m_HeaderOnly:0
 m_Column:DSQ:5:1:10056:0:0:1:TopSky plugin:::1:0.0
 m_Column:RWY:4:1:10050:19:19:1:TopSky plugin:::0:0.0
@@ -216,7 +214,7 @@ m_Column:CS:8:0:10021:6:99:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
 m_Column:TTOT:5:0:4:0:0:1:vACDM:::0:0.0
 m_Column:CTOT:5:1:5001:0:0:1:VATCAN Bookings:::0:0.0
 m_Column:AC:5:1:10028:2:32:1:TopSky plugin:TopSky plugin::0:0.0
-m_Column::2:1:10081:106:0:1:TopSky plugin:TopSky plugin::0:0.0
+m_Column::2:1:10083:106:0:1:TopSky plugin:TopSky plugin::0:0.0
 m_Column:ARR:5:1:10008:0:0:1:TopSky plugin:::0:0.0
 m_Column:SID:12:1:10011:17:17:1:TopSky plugin:::0:0.0
 m_Column:XPDR:5:1:10042:62:0:1:TopSky plugin:TopSky plugin::0:0.0
