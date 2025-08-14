@@ -1,18 +1,18 @@
 Settings	sector	\OTDF-Developer-Package_20250729100131-241301-0010.sct
-Settings	SettingsfileSYMBOLOGY	\OTDF\Settings\Aerodrome\Symbology.txt
-Settings	SettingsfileVOICE	\OTDF\Settings\Aerodrome\Voice.txt
-Settings	SettingsfilePROFILE	\OTDF\Settings\Aerodrome\Profiles.txt
+Settings	SettingsfileSYMBOLOGY	\OTDF\Settings\TWR_LeadInSky\Symbology.txt
+Settings	SettingsfileVOICE	\OTDF\Settings\TWR_LeadInSky\Voice.txt
+Settings	SettingsfilePROFILE	\OTDF\Settings\TWR_LeadInSky\Profiles.txt
 Settings	SettingsfileTAGS	\OTDF\Settings\Tags.txt
-Settings	SettingsfileSIL	\OTDF\Settings\Aerodrome\Lists.txt
-Settings	SettingsfileSEL	\OTDF\Settings\Aerodrome\Lists.txt
-Settings	SettingsfileDEP	\OTDF\Settings\Aerodrome\Lists.txt
-Settings	SettingsfileARR	\OTDF\Settings\Aerodrome\Lists.txt
-Settings	SettingsfileFP	\OTDF\Settings\Aerodrome\Lists.txt
-Settings	SettingsfilePLUGINS	\OTDF\Settings\Aerodrome\Plugins.txt
+Settings	SettingsfileSIL	\OTDF\Settings\TWR_LeadInSky\Lists.txt
+Settings	SettingsfileSEL	\OTDF\Settings\TWR_LeadInSky\Lists.txt
+Settings	SettingsfileDEP	\OTDF\Settings\TWR_LeadInSky\Lists.txt
+Settings	SettingsfileARR	\OTDF\Settings\TWR_LeadInSky\Lists.txt
+Settings	SettingsfileFP	\OTDF\Settings\TWR_LeadInSky\Lists.txt
+Settings	SettingsfilePLUGINS	\OTDF\Settings\TWR_LeadInSky\Plugins.txt
 Settings	Settingsfile	\OTDF\Settings\General.txt
-Settings	SettingsfileSCREEN	\OTDF\Settings\Aerodrome\Screen.txt
-Settings	SettingsfileCONFLICT	\OTDF\Settings\Aerodrome\Lists.txt
-Settings	SettingsfileVCCS	\OTDF\Settings\Aerodrome\VCCS.txt
+Settings	SettingsfileSCREEN	\OTDF\Settings\TWR_LeadInSky\Screen.txt
+Settings	SettingsfileCONFLICT	\OTDF\Settings\TWR_LeadInSky\Lists.txt
+Settings	SettingsfileVCCS	\OTDF\Settings\TWR_LeadInSky\VCCS.txt
 Settings	SettingsfilePILOTING	\OTDF\Settings\General.txt
 Settings	SettingsfileORIGPLANE	\OTDF\Settings\General.txt
 Settings	SettingsfileSTUP	\OTDF\Settings\General.txt
@@ -26,12 +26,12 @@ Settings	airports	\OTDF\ICAO\ICAO_Airports.txt
 Settings	aircraft	\OTDF\ICAO\ICAO_Aircraft.txt
 Settings	airportcoords	\OTDF\NavData\icao.txt
 Settings	airways	\OTDF\NavData\airway.txt
-ASRFastKeys	1	\OTDF\ASR\Aerodrome\Doha Aerodrome.asr
-ASRFastKeys	2	\OTDF\ASR\SMGCS\Hamad SMGCS.asr
-ASRFastKeys	3	\OTDF\ASR\SMGCS\Doha SMGCS.asr
-RecentFiles	Recent1	\OTDF\ASR\Aerodrome\Doha Aerodrome.asr
-RecentFiles	Recent2	\OTDF\ASR\SMGCS\Hamad SMGCS.asr
-RecentFiles	Recent3	\OTDF\ASR\SMGCS\Doha SMGCS.asr
+ASRFastKeys	1	\OTDF\ASR\TWR_LeadInSky\Doha Aerodrome.asr
+ASRFastKeys	2	\OTDF\ASR\TWR_LeadInSky\Hamad SMGCS.asr
+ASRFastKeys	3	\OTDF\ASR\TWR_LeadInSky\Doha SMGCS.asr
+RecentFiles	Recent1	\OTDF\ASR\TWR_LeadInSky\Doha Aerodrome.asr
+RecentFiles	Recent2	\OTDF\ASR\TWR_LeadInSky\Hamad SMGCS.asr
+RecentFiles	Recent3	\OTDF\ASR\TWR_LeadInSky\Doha SMGCS.asr
 TeamSpeakVccs	TsVccsMiniControlX	2070
 TeamSpeakVccs	TsVccsMiniControlY	75
 TeamSpeakVccs	Ts3DialogLeft	0
@@ -63,7 +63,7 @@ Plugins	Plugin2	\OTDF\Plugins\Virtual Controller Helper\VCH.dll
 Plugins	Plugin3	\OTDF\Plugins\VFPC\VFPC.dll
 Plugins	Plugin4	\OTDF\Plugins\vSID\vSID Plugin Dark\vSID.dll
 Plugins	Plugin5	\OTDF\Plugins\VACDM\vACDM.dll
-Plugins	Plugin6	\OTDF\Plugins\TopSky Doha Aerodrome\TopSky.dll
+Plugins	Plugin6	\OTDF\Plugins\TopSky\TWR_LeadInSky\TopSky.dll
 Plugins	Plugin7	\OTDF\Plugins\VATCAN Bookings Plugin\VATCANBookings.dll
 Plugins	Plugin8	\OTDF\Plugins\Ground Radar Plugin\GRplugin.dll
 Plugins	Plugin1Display1	Ground Radar display
