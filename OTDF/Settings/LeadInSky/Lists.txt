@@ -55,8 +55,8 @@ m_Column:RMK:7:1:156:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
 END
 DEP
 m_Visible:1
-m_X:1
-m_Y:65
+m_X:5
+m_Y:197
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:22
@@ -89,8 +89,8 @@ m_Column:RMK:12:1:38:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
 END
 ARR
 m_Visible:1
-m_X:2047
-m_Y:87
+m_X:2009
+m_Y:67
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:1
