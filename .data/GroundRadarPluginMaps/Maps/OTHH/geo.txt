@@ -1,7 +1,7 @@
 /// SMGCS GEO Maps
-/// OTHH - Doha-Hamad
-MAP:Doha-Hamad SMGCS - GEO - Markings
-FOLDER:Doha-Hamad SMGCS
+/// OTHH - Hamad
+MAP:Hamad SMGCS - GEO - Markings
+FOLDER:Hamad SMGCS
 ACTIVE:1
 COLOR:SMGCS_TWY
 LINE:N025.17.36.490:E051.36.36.050:N025.17.41.624:E051.36.33.777
