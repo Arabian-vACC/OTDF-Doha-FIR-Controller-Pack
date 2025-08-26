@@ -1,4 +1,4 @@
-Settings	sector	\OTDF-Install-Package_20250723140706-241301-0008.sct
+Settings	sector	\OTDF-Install-Package_20250818094447-241301-0015.sct
 Settings	SettingsfileSYMBOLOGY	\OTDF\Settings\LeadInSky\Symbology.txt
 Settings	SettingsfileVOICE	\OTDF\Settings\LeadInSky\Voice.txt
 Settings	SettingsfilePROFILE	\OTDF\Settings\LeadInSky\Profiles.txt
@@ -58,18 +58,21 @@ Sounds	Sound15	\OTDF\Sounds\new_atis.wav
 Sounds	Sound16	\OTDF\Sounds\handoff_refused.wav
 Sounds	Sound17	\OTDF\Sounds\pointout.wav
 Plugins	Plugin0	\OTDF\Plugins\Audio for VATSIM\AfvEuroScopeBridge.dll
-Plugins	Plugin1	\OTDF\Plugins\Discord Euroscope\DiscordEuroscope.dll
-Plugins	Plugin2	\OTDF\Plugins\Virtual Controller Helper\VCH.dll
-Plugins	Plugin3	\OTDF\Plugins\VFPC\VFPC.dll
-Plugins	Plugin4	\OTDF\Plugins\VACDM\vACDM.dll
-Plugins	Plugin5	\OTDF\Plugins\TopSky\LeadInSky\TopSky.dll
-Plugins	Plugin6	\OTDF\Plugins\VATCAN Bookings Plugin\VATCANBookings.dll
-Plugins	Plugin7	\OTDF\Plugins\Ground Radar Plugin\GRplugin.dll
-Plugins	Plugin1Display1	Ground Radar display
-Plugins	Plugin5Display1	Ground Radar display
+Plugins	Plugin1	\OTDF\Plugins\vSID\vSID Plugin Dark\vSID.dll
+Plugins	Plugin2	\OTDF\Plugins\Discord Euroscope\DiscordEuroscope.dll
+Plugins	Plugin3	\OTDF\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin4	\OTDF\Plugins\VFPC\VFPC.dll
+Plugins	Plugin5	\OTDF\Plugins\VACDM\vACDM.dll
+Plugins	Plugin6	\OTDF\Plugins\TopSky\LeadInSky\TopSky.dll
+Plugins	Plugin7	\OTDF\Plugins\VATCAN Bookings Plugin\VATCANBookings.dll
+Plugins	Plugin1Display1	Standard ES radar screen
 Plugins	Plugin6Display0	Standard ES radar screen
 Plugins	Plugin6Display1	Ground Radar display
-Plugins	Plugin7Display0	Ground Radar display
+Plugins	Plugin7Display0	Standard ES radar screen
+Plugins	Plugin1Display0	Ground Radar display
+Plugins	Plugin7Display1	Ground Radar display
+Plugins	Plugin8	\OTDF\Plugins\Ground Radar Plugin\GRplugin.dll
+Plugins	Plugin8Display0	Ground Radar display
 LastSession	atis_freq4	118000
 LastSession	connecttype	0
 LastSession	callsign	(INITIALS)_OBS
@@ -83,4 +86,3 @@ LastSession	range	300
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	server	AUTOMATIC
-Plugins	Plugin5Display0	Standard ES radar screen
