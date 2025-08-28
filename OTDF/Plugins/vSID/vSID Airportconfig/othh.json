@@ -4,9 +4,9 @@
         "runways": "16L,16R,34L,34R",
         "transAlt": 13000,
         "maxInitialClimb": 10000,
-        "customRules" : {"lubetwest":false, "tulubwest": false},
+        "customRules" : {"lubetwest":true, "tulubwest": true},
         "intersections": {"16L": "A12,A11,A10", "16R": "L12,L11,L10,M14,M13,M12,M11", "34R": "A,A1,A2", "34L": "L,L1,L2,M1,M2,M3,M4"},
-        "timeMode": false,
+        "timeMode": true,
         "timezone": "UTC",
         "appSI": "DD,DDE,D1X,DRN,DR1,DRS,DR2,DAW,DA2,D2X,DAE,DA1,DCS,DCN,DC1,DC2",
         "sids": {
