@@ -42,7 +42,7 @@
                   "OISS"
                ],
                "airways": [
-                  "T430"
+                  "P550"
                ]
             },
             {
@@ -69,13 +69,13 @@
                   "UUDD"
                ],
                "airways": [
-                  "T430"
+                  "P550"
                ]
             },
             {
                "direction": "ODD",
                "airways": [
-                  "T430"
+                  "P550"
                ]
             }
          ],
@@ -176,7 +176,7 @@
                "suffix":"ALVEN",
                "direction":"ODD",
                "airways":[
-                  "T430"
+                  "P550"
                ]
             },
             {
@@ -376,7 +376,7 @@
                "suffix":"ALVEN",
                "direction":"ODD",
                "airways":[
-                  "T430"
+                  "P550"
                ]
             },
             {
