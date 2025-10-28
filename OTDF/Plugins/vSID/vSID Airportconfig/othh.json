@@ -31,7 +31,6 @@
                 "A": {
                     "1": {
                         "rwy": "34L",
-                        "sidHighlight": true,
                         "initial": 10000,
                         "timeFrom": 7,
                         "timeTo": 4,
@@ -104,7 +103,6 @@
                 "A": {
                     "1": {
                         "rwy": "34L",
-                        "sidHighlight": true,
                         "initial": 10000,
                         "timeFrom": 7,
                         "timeTo": 4,
@@ -163,7 +161,6 @@
                 "A": {
                     "1": {
                         "rwy": "34L",
-                        "sidHighlight": true,
                         "initial": 4000,
                         "timeFrom": 22,
                         "timeTo": 1,
