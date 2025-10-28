@@ -265,39 +265,39 @@
                     }
                 }
 			},
-            "KASIS2": {
+            "KASIS": {
                 "1": {
                     "1": {
                         "rwy": "16L",
                         "initial": 4000,
-                        "prio": 99
+                        "prio": 5
                     }
                 }
 			},
-            "PARES2": {
+            "PARES": {
                 "1": {
                     "1": {
                         "rwy": "34L",
                         "initial": 4000,
-                        "prio": 99
+                        "prio": 5
                     }
                 }
 			},
-            "DEMBO3": {
+            "DEMBO": {
                 "1": {
                     "1": {
                         "rwy": "34R",
                         "initial": 4000,
-                        "prio": 99
+                        "prio": 5
                     }
                 }
 			},
-            "IVENA2": {
+            "IVENA": {
                 "1": {
                     "1": {
                         "rwy": "16R",
                         "initial": 4000,
-                        "prio": 99
+                        "prio": 5
                     }
                 }
 			}
