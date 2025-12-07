@@ -73,7 +73,7 @@ Plugins	Plugin1Display0	Ground Radar display
 Plugins	Plugin7Display1	Ground Radar display
 Plugins	Plugin8	\OTDF\Plugins\Ground Radar Plugin\GRplugin.dll
 Plugins	Plugin8Display0	Ground Radar display
-Plugins	Plugin9	\OTDF\Plugins\RDFPlugin.dll
+Plugins	Plugin9 \OMAE\Plugins\RDFplugin\RDFPlugin.dll
 Plugins	Plugin9Display0	Standard ES radar screen
 LastSession	atis_freq4	118000
 LastSession	connecttype	0
