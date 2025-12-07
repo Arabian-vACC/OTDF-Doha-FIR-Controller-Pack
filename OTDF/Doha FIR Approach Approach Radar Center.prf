@@ -88,3 +88,5 @@ LastSession	range	300
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	server	AUTOMATIC
+Plugins	Plugin9	\OTDF\Plugins\RDFPlugin.dll
+Plugins	Plugin9Display1	Ground Radar display
