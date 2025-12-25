@@ -4,7 +4,7 @@
         "runways": "16L,16R,34L,34R",
         "transAlt": 13000,
         "maxInitialClimb": 10000,
-        "customRules" : {"lubetwest":true, "tulubwest": true},
+        "customRules" : {"lubetwest":true, "tulubwest": true, "radarsid": true},
         "intersections": {"16L": "A12,A11,A10", "16R": "L12,L11,L10,M14,M13,M12,M11", "34R": "A,A1,A2", "34L": "L,L1,L2,M1,M2,M3,M4"},
         "timeMode": true,
         "timezone": "UTC",
@@ -16,14 +16,14 @@
                     "1": {
                         "rwy": "34L",
                         "initial": 4000,
-                        "prio": 1
+                        "prio": 3
                     }
                 },
                 "C": {
                     "1": {
                         "rwy": "16R",
                         "initial": 7000,
-                        "prio": 1
+                        "prio": 2
                     }
                 }
 			},
@@ -35,7 +35,7 @@
                         "initial": 10000,
                         "timeFrom": 7,
                         "timeTo": 4,
-                        "prio": 1
+                        "prio": 3
                     }
                 },
                 "W": {
@@ -43,20 +43,20 @@
                         "rwy": "34L",
                         "initial": 4000,
                         "area": "west",
-                        "prio": 2
+                        "prio": 4
                     },
                     "2": {
                         "rwy": "34L",
                         "initial": 4000,
                         "customRule": "lubetwest",
-                        "prio": 2
+                        "prio": 4
                     }
                 },
                 "E": {
                     "1": {
                         "rwy": "34R",
                         "initial": 4000,
-                        "prio": 3
+                        "prio": 5
                     }
                 },
                 "Z": {
@@ -70,7 +70,7 @@
                     "1": {
                         "rwy": "16L",
                         "initial": 5000,
-                        "prio": 2
+                        "prio": 3
                     }
                 },
                 "Y": {
@@ -85,18 +85,18 @@
                         "rwy": "16R",
                         "initial": 6000,
                         "area": "west",
-                        "prio": 1
+                        "prio": 2
                     },
                     "2": {
                         "rwy": "16R",
                         "initial": 6000,
                         "customRule": "lubetwest",
-                        "prio": 1
+                        "prio": 2
                     },
                     "3": {
                         "rwy": "16R",
                         "initial": 6000,
-                        "prio": 3
+                        "prio": 4
                     }
                 }
 			},
@@ -108,7 +108,7 @@
                         "initial": 10000,
                         "timeFrom": 7,
                         "timeTo": 4,
-                        "prio": 1
+                        "prio": 3
                     }
                 },
                 "W": {
@@ -116,27 +116,27 @@
                         "rwy": "34L",
                         "initial": 4000,
                         "area": "west",
-                        "prio": 2
+                        "prio": 4
                     },
                     "2": {
                         "rwy": "34L",
                         "initial": 4000,
                         "customRule": "tulubwest",
-                        "prio": 2
+                        "prio": 4
                     }
                 },
                 "E": {
                     "1": {
                         "rwy": "34R",
                         "initial": 4000,
-                        "prio": 3
+                        "prio": 5
                     }
                 },
                 "M": {
                     "1": {
                         "rwy": "16L",
                         "initial": 5000,
-                        "prio": 2
+                        "prio": 3
                     }
                 },
                 "C": {
@@ -144,18 +144,18 @@
                         "rwy": "16R",
                         "initial": 6000,
                         "area": "west",
-                        "prio": 1
+                        "prio": 2
                     },
                     "2": {
                         "rwy": "16R",
                         "initial": 6000,
                         "customRule": "tulubwest",
-                        "prio": 1
+                        "prio": 2
                     },
                     "3": {
                         "rwy": "16R",
                         "initial": 6000,
-                        "prio": 3
+                        "prio": 4
                     }
                 }
 			},
@@ -167,21 +167,21 @@
                         "initial": 4000,
                         "timeFrom": 22,
                         "timeTo": 1,
-                        "prio": 1
+                        "prio": 3
                     }
                 },
                 "W": {
                     "1": {
                         "rwy": "34L",
                         "initial": 4000,
-                        "prio": 2
+                        "prio": 4
                     }
                 },
                 "C": {
                     "1": {
                         "rwy": "16R",
                         "initial": 7000,
-                        "prio": 1
+                        "prio": 2
                     }
                 }
 			},
@@ -190,14 +190,14 @@
                     "1": {
                         "rwy": "34R",
                         "initial": 4000,
-                        "prio": 1
+                        "prio": 3
                     }
                 },
                 "M": {
                     "1": {
                         "rwy": "16L",
                         "initial": 5000,
-                        "prio": 1
+                        "prio": 2
                     }
                 }
 			},
@@ -206,14 +206,14 @@
                     "1": {
                         "rwy": "34R",
                         "initial": 4000,
-                        "prio": 1
+                        "prio": 3
                     }
                 },
                 "M": {
                     "1": {
                         "rwy": "16L",
                         "initial": 5000,
-                        "prio": 1
+                        "prio": 2
                     }
                 }
 			},
@@ -222,14 +222,14 @@
                     "1": {
                         "rwy": "34R",
                         "initial": 4000,
-                        "prio": 1
+                        "prio": 3
                     }
                 },
                 "C": {
                     "1": {
                         "rwy": "16R",
                         "initial": 7000,
-                        "prio": 1
+                        "prio": 2
                     }
                 }
 			},
@@ -238,14 +238,14 @@
                     "1": {
                         "rwy": "34R",
                         "initial": 4000,
-                        "prio": 1
+                        "prio": 3
                     }
                 },
                 "M": {
                     "1": {
                         "rwy": "16L",
                         "initial": 5000,
-                        "prio": 1
+                        "prio": 2
                     }
                 }
 			},
@@ -254,184 +254,65 @@
                     "1": {
                         "rwy": "34R",
                         "initial": 4000,
-                        "prio": 1
+                        "prio": 3
                     }
                 },
                 "M": {
                     "1": {
                         "rwy": "16L",
                         "initial": 5000,
+                        "prio": 2
+                    }
+                }
+			},
+            "KASIS": {
+                "XXX": {
+                    "1": {
+                        "rwy": "16L",
+                        "trans": {"BUNDU": "XXX", "DATRI": "XXX", "TULUB": "XXX", "ULIKA": "XXX"},
+                        "customRule": "radarsid",
+                        "initial": 5000,
                         "prio": 1
                     }
                 }
 			},
-            "KASIS2xBUNDU": {
-                "1": {
+            "IVENA": {
+                "XXX": {
                     "1": {
-                        "rwy": "16L",
+                        "rwy": "16R",
+                        "trans": {"ALSEM": "XXX", "ALVEN": "XXX", "KUPRO": "XXX", "LUBET": "XXX", "PATOM": "XXX", "VAXIN": "XXX"},
+                        "customRule": "radarsid",
                         "initial": 5000,
-                        "wpt": "BUNDU",
-                        "prio": 3
+                        "prio": 1
                     }
                 }
 			},
-            "KASIS2xDATRI": {
-                "1": {
+            "PARES": {
+                "XXX": {
                     "1": {
-                        "rwy": "16L",
+                        "rwy": "34L",
+                        "trans": {"ALSEM": "XXX", "ALVEN": "XXX", "BUNDU": "XXX", "KUPRO": "XXX", "VAXIN": "XXX"},
+                        "customRule": "radarsid",
                         "initial": 5000,
-                        "wpt": "DATRI",
-                        "prio": 3
+                        "prio": 1
                     }
                 }
 			},
-            "KASIS2xTULUB": {
-                "1": {
-                    "1": {
-                        "rwy": "16L",
-                        "initial": 5000,
-                        "wpt": "TULUB",
-                        "prio": 3
-                    }
-                }
-			},
-            "KASIS2xULIKA": {
-                "1": {
-                    "1": {
-                        "rwy": "16L",
-                        "initial": 5000,
-                        "wpt": "ULIKA",
-                        "prio": 3
-                    }
-                }
-			},
-            "PARES3xALSEM": {
-                "1": {
-                    "1": {
-                        "rwy": "34L",
-                        "initial": 4000,
-                        "wpt": "ALSEM",
-                        "prio": 3
-                    }
-			    }
-            }, 
-            "PARES3xALVEN": {
-                "1": {
-                    "1": {
-                        "rwy": "34L",
-                        "initial": 4000,
-                        "wpt": "ALVEN",
-                        "prio": 3
-                    }
-			    }
-            },   
-            "PARES3xBUNDU": {
-                "1": {
-                    "1": {
-                        "rwy": "34L",
-                        "initial": 4000,
-                        "wpt": "BUNDU",
-                        "prio": 3
-                    }
-			    }
-            },
-            "PARES3xKUPRO": {
-                "1": {
-                    "1": {
-                        "rwy": "34L",
-                        "initial": 4000,
-                        "wpt": "KUPRO",
-                        "prio": 3
-                    }
-			    }
-            },
-            "PARES3xVAXIN": {
-                "1": {
-                    "1": {
-                        "rwy": "34L",
-                        "initial": 4000,
-                        "wpt": "VAXIN",
-                        "prio": 3
-                    }
-			    }
-            },
-            "DEMBO4xDATRI": {
-                "1": {
+            "DEMBO": {
+                "XXX": {
                     "1": {
                         "rwy": "34R",
-                        "initial": 4000,
-                        "wpt": "DARTI",
-                        "prio": 3
-                    }
-			    }
-            },
-            "DEMBO4xULIKA": {
-                "1": {
-                    "1": {
+                        "trans": {"DATRI": "XXX", "ULIKA": "XXX"},
+                        "customRule": "radarsid",
+                        "initial": 5000,
+                        "prio": 1
+                    },
+                    "2": {
                         "rwy": "34R",
-                        "initial": 4000,
-                        "wpt": "ULIKA",
-                        "prio": 3
-                    }
-			    }
-            },
-            "IVENA3xALSEM": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
+                        "wpt": "XXX",
+                        "customRule": "radarsid",
                         "initial": 5000,
-                        "wpt": "ULIKA",
-                        "prio": 3
-                    }
-                }
-			},
-            "IVENA3xALVEN": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
-                        "initial": 5000,
-                        "wpt": "ALVEN",
-                        "prio": 3
-                    }
-                }
-			},
-            "IVENA3xKUPRO": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
-                        "initial": 5000,
-                        "wpt": "KUPRO",
-                        "prio": 3
-                    }
-                }
-			},
-            "IVENA3xLUBET": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
-                        "initial": 5000,
-                        "wpt": "LUBET",
-                        "prio": 3
-                    }
-                }
-			},
-            "IVENA3xPATOM": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
-                        "initial": 5000,
-                        "wpt": "PATOM",
-                        "prio": 3
-                    }
-                }
-			},
-            "IVENA3xVAXIN": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
-                        "initial": 5000,
-                        "wpt": "VAXIN",
-                        "prio": 3
+                        "prio": 2
                     }
                 }
 			}
